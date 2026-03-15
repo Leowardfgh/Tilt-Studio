@@ -1,0 +1,53 @@
+.content {
+    border: 5px black solid;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.liens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 150px;
+    margin: 10px;
+    gap: 20px;
+}
+
+.btn1 {
+    border: 3px black solid;
+    color: black;
+    border-radius: 20px;
+    font-size: 5vw;
+    font-family: monospace;
+    box-shadow: 0 0 20px blue;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px blue;
+}
+
+.btn2 {
+    box-shadow: 0 0 20px red;
+    text-shadow: 0 0 10px red;
+}
+
+.btn1:hover {
+    box-shadow: 0 0 50px blue;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    box-shadow: 0 0 50px red;
+    transition: 0.5s;
+}
+
+p {
+    font-size: 4vw;
+    text-shadow: 0 0 10px yellow;
+    text-decoration: white underline;
+}

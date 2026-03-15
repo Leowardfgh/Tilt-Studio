@@ -1,0 +1,21 @@
+.jeu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    margin-top: 20px;
+    height: 450px;
+    width: 800px;
+    border: 5px white solid;
+    border-radius: 20px;
+}
+
+.grand {
+    height: 20px;
+    width: 150px;
+    background: linear-gradient(gray, white);
+    position: absolute;
+    bottom: 30px;
+}

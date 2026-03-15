@@ -1,0 +1,17 @@
+{
+	"name": "the _block_game",
+	"short_name": "the _block_game",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/Icône-16.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}

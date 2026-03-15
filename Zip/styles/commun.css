@@ -1,0 +1,45 @@
+.menu {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px white solid;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+body {
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+    margin-top: 0vh;
+}
+
+h1 {
+    font-size: 3.5vw;
+    text-decoration: underline;
+    color: indigo;
+    text-shadow: 0 0 30px blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a1 {
+    margin: 1vw;
+    font-size: 2vw;
+    padding-right: 3vw;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.a1:hover {
+    text-shadow: 0 0 10px yellow;
+}
